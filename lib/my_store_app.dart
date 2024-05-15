@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:store_app/core/app/env_variable.dart';
 
 class MyStoreApp extends StatelessWidget {
   const MyStoreApp({super.key});
@@ -6,7 +7,7 @@ class MyStoreApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: EnvVariale.instance.debugType,
       theme: ThemeData(
         useMaterial3: true,
       ),
