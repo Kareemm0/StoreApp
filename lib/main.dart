@@ -8,7 +8,7 @@ import 'package:store_app/my_store_app.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await EnvVariale.instance.init(typeEnum: EnvTypeEnum.prod);
+  await EnvVariale.instance.init(typeEnum: EnvTypeEnum.dev);
   Platform.isAndroid
       ? await Firebase.initializeApp(
           options: const FirebaseOptions(
