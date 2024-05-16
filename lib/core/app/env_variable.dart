@@ -17,7 +17,7 @@ class EnvVariale {
         await dotenv.load(fileName: '.env.production');
     }
 
-    _envType = dotenv.get('ENV_TYPE');
+    _envType = dotenv.get('ENV.TYPE');
   }
 
   bool get debugType => _envType == 'dev';
