@@ -23,6 +23,13 @@ dev_dependencies:
   flutter_lints: ^3.0.0
   very_good_analysis: ^5.1.0
   flutter_launcher_icons: ^0.13.1
+flutter_icons : 
+  android : true
+  ios: true
+  image_path : "assets/images/core/app_icon.jpg"
+  adaptive_icon_background : "0fffff"
+  adaptive_icon_forground : "assets/images/core/play_store_512.png"
+
   flutter_test:
     sdk: flutter
 
